@@ -1,0 +1,19 @@
+.hero {
+    background-image: url("/assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-gradient {
+    background-color: #FFFF;
+    color: #000;
+    border: 1px solid #000;
+    transition: ease .5s;
+    &:hover {
+        transition: ease .5s;
+        color: #FFFF;
+        background-image: url("/assets/images/hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
