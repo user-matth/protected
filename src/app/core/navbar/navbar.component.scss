@@ -1,0 +1,15 @@
+.d-inline-mobile {
+    display: none;
+}
+.d-none-mobile {
+    display: inline;
+}
+
+@media only screen and (max-width: 590px) {
+    .d-inline-mobile {
+        display: inline;
+    }    
+    .d-none-mobile {
+        display: none;
+    }
+}

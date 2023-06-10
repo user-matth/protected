@@ -23,3 +23,26 @@ body {
 .pointer {
     cursor: pointer!important;
 }
+
+.text-orange {
+    color: #E85D04 !important;
+}
+.bg-orange {
+    background-color: #E85D04 !important;
+}
+
+.btn-orange {
+    border: 1px solid #E85D04 !important;
+    color: #E85D04 !important;
+    svg {
+        fill: #E85D04 !important;
+    } 
+
+    &:hover {
+        background-color: #E85D04 !important;
+        color: #fff !important;
+        svg {
+            fill: #ffffff !important;
+        } 
+    }
+}
